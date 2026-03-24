@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens ─── */
+:root {
+  /* Colors — derived from Hollywood Furniture logo */
+  --color-cream: #E8DCC8;        /* parchment map background */
+  --color-warm-white: #F5F1E8;   /* cream surface / card bg */
+  --color-walnut: #2D4A3A;       /* deep forest green — primary text/headings */
+  --color-oak: #3D5A2F;          /* medium forest green — secondary text */
+  --color-honey: #D4B896;        /* light golden tan — subtle accents */
+  --color-brass: #C4A157;        /* warm amber — CTAs, highlights */
+  --color-brass-light: #D4C07A;  /* light amber — hover state */
+  --color-charcoal: #3D3A2A;     /* dark brown-black — navbar, footer */
+  --color-sand: #D4C4A8;         /* warm sand — borders, dividers */
+  --color-forest: #5C7A4D;       /* olive green — success, subtle accent */
+  --color-clay: #8B6F47;         /* dark copper — hover, secondary accent */
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --font-display-ar: 'Noto Naskh Arabic', serif;
+  --font-body-ar: 'IBM Plex Sans Arabic', sans-serif;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(62, 39, 35, 0.08);
+  --shadow-md: 0 4px 20px rgba(62, 39, 35, 0.12);
+  --shadow-lg: 0 8px 40px rgba(62, 39, 35, 0.16);
+  --shadow-xl: 0 16px 60px rgba(62, 39, 35, 0.20);
+}
+
+/* ─── Base Styles ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-walnut);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+[dir="rtl"] body {
+  font-family: var(--font-body-ar);
+  line-height: 1.75;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  font-family: var(--font-display-ar);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-walnut);
+}
+
+/* ─── Wood Grain Texture ─── */
+.wood-texture {
+  position: relative;
+}
+.wood-texture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-cream); }
+::-webkit-scrollbar-thumb { background: var(--color-honey); border-radius: 4px; }
+
+/* ─── Selection ─── */
+::selection { background: var(--color-honey); color: var(--color-warm-white); }
+
+/* ─── Section spacing ─── */
+.section-padding {
+  padding-top: var(--space-9);
+  padding-bottom: var(--space-9);
+}
+
+/* ─── Decorative divider ─── */
+.brass-line {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-brass), var(--color-honey));
+  margin: var(--space-4) auto;
+}
+
+[dir="rtl"] .brass-line {
+  background: linear-gradient(270deg, var(--color-brass), var(--color-honey));
+}
+
+/* ─── Lightbox overrides ─── */
+.yarl__container { background: rgba(44, 36, 32, 0.96) !important; }

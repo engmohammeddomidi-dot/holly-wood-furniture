@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "switchLang": "عربي"
+  },
+  "hero": {
+    "tagline": "Crafting Timeless Pieces",
+    "subtitle": "Where Palestinian heritage meets precision craft — handcrafted furniture and bespoke woodwork from the heart of Nablus.",
+    "cta": "View Our Work",
+    "ctaContact": "Get in Touch"
+  },
+  "about": {
+    "label": "Our Story",
+    "title": "Passion for Wood, \nPerfection in Craft",
+    "p1": "For over 13 years, Hollywood Furniture & Woodworking has been transforming raw timber into living art. Founded by master craftsman Muath Domidi, our workshop in Howwara, Nablus blends Palestinian woodworking heritage with contemporary design sensibilities.",
+    "p2": "Every piece we create is a collaboration between artisan and client — beginning with a conversation, moving through careful material selection, and culminating in a finished work that outlasts trends.",
+    "stats": {
+      "years": "Years of Experience",
+      "projects": "Projects Completed",
+      "handcrafted": "Handcrafted"
+    }
+  },
+  "owner": {
+    "label": "Meet the Craftsman",
+    "title": "Muath Domidi",
+    "subtitle": "Master Woodworker & Founder",
+    "p1": "With 13 years of dedicated craftsmanship, Muath Domidi has built Hollywood Furniture into one of Palestine's most trusted furniture workshops. Based in Howwara, Nablus, he combines traditional Palestinian woodworking techniques with modern precision.",
+    "p2": "Every piece that leaves the workshop bears Muath's personal commitment to quality — from the first sketch to the final polish. His passion for wood is not just a profession, it's a legacy.",
+    "experience": "13 Years Experience",
+    "location": "Howwara, Nablus",
+    "specialty": "Custom Furniture & Interiors"
+  },
+  "services": {
+    "label": "What We Do",
+    "title": "Our Services",
+    "subtitle": "From a single statement chair to a complete interior fit-out — we bring your vision to life with uncompromising attention to detail.",
+    "items": {
+      "custom": {
+        "title": "Custom Furniture",
+        "desc": "Bespoke pieces designed and built to your exact specifications — dining tables, bedroom sets, living room furniture, and more."
+      },
+      "kitchen": {
+        "title": "Kitchen Cabinets",
+        "desc": "Precision-fitted kitchen cabinetry crafted from premium hardwoods and engineered timbers, built to last a lifetime."
+      },
+      "restoration": {
+        "title": "Wood Restoration",
+        "desc": "Breathing new life into antique and heirloom pieces — careful repair, refinishing, and structural restoration."
+      },
+      "interior": {
+        "title": "Interior Woodwork",
+        "desc": "Wall paneling, ceiling treatments, staircases, doors, and architectural millwork that transforms interior spaces."
+      },
+      "outdoor": {
+        "title": "Outdoor Furniture",
+        "desc": "Weather-resistant outdoor sets crafted from teak, cedar, and hardwoods — built for beauty and longevity."
+      },
+      "commercial": {
+        "title": "Commercial Projects",
+        "desc": "Large-scale fit-outs for restaurants, hotels, offices, and retail spaces — delivered on time and on budget."
+      }
+    }
+  },
+  "portfolio": {
+    "label": "Our Work",
+    "title": "Recent Projects",
+    "subtitle": "A selection of our most recent commissions — each one a unique collaboration between craftsman and client.",
+    "viewAll": "View All Projects",
+    "viewProject": "View Project",
+    "backToPortfolio": "← Back to Portfolio",
+    "category": "Category",
+    "noProjects": "No projects yet. Check back soon!",
+    "categories": {
+      "custom-furniture": "Custom Furniture",
+      "kitchen-cabinets": "Kitchen Cabinets",
+      "restoration": "Restoration",
+      "interior-woodwork": "Interior Woodwork",
+      "outdoor-furniture": "Outdoor Furniture",
+      "commercial": "Commercial",
+      "all": "All"
+    }
+  },
+  "process": {
+    "label": "How We Work",
+    "title": "Our Process",
+    "subtitle": "From first conversation to final delivery — a seamless journey built on trust and transparency.",
+    "steps": {
+      "consultation": {
+        "title": "Consultation & Design",
+        "desc": "We begin with a detailed consultation to understand your vision, space, and requirements. Our designers then create technical drawings and 3D renders for your approval."
+      },
+      "materials": {
+        "title": "Material Selection",
+        "desc": "We source premium timbers and materials from trusted suppliers. You're welcome to visit our workshop to hand-pick the wood for your piece."
+      },
+      "crafting": {
+        "title": "Crafting & Assembly",
+        "desc": "Our master craftsmen bring your design to life using traditional joinery techniques combined with modern precision tooling."
+      },
+      "delivery": {
+        "title": "Delivery & Installation",
+        "desc": "We deliver and professionally install every piece, ensuring a perfect fit. We don't leave until you're completely satisfied."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Client Stories",
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "quote": "The dining table Hassan built for us is simply extraordinary. Three years later, guests still ask about it at every dinner party. It's become the heart of our home.",
+        "author": "Sarah Al-Rashid",
+        "project": "Custom Dining Table"
+      },
+      {
+        "quote": "We commissioned a full kitchen fit-out for our villa. The attention to detail, the quality of the timber, and the professionalism of the team were all outstanding.",
+        "author": "Khalid Mansour",
+        "project": "Villa Kitchen Cabinetry"
+      },
+      {
+        "quote": "Holly Wood transformed our restaurant interior completely. The custom bar, booths, and wall paneling created exactly the warm atmosphere we were after.",
+        "author": "Nadia Farouk",
+        "project": "Restaurant Interior"
+      },
+      {
+        "quote": "I brought in my grandmother's antique writing desk for restoration. They returned it looking better than I imagine it did when it was new. Priceless work.",
+        "author": "Omar Al-Saeed",
+        "project": "Antique Restoration"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Get In Touch",
+    "title": "Start Your Project",
+    "subtitle": "Ready to bring your vision to life? Reach out for a free consultation — no obligation, just a conversation.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Service Interested In",
+      "message": "Tell us about your project",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or contact us directly.",
+      "required": "Required",
+      "selectService": "Select a service..."
+    },
+    "info": {
+      "address": "Palestine — Nablus, Howwara",
+      "phone": "0569460469",
+      "email": "eng.mohammed.domidi@gmail.com",
+      "hours": "Sat – Thu: 9:00 AM – 6:00 PM",
+      "whatsapp": "Chat on WhatsApp"
+    }
+  },
+  "footer": {
+    "tagline": "Crafting timeless furniture and woodwork — Palestine, Nablus.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "follow": "Follow Us",
+    "copyright": "© 2025 Hollywood Furniture & Woodworking. All rights reserved.",
+    "madeWith": "Handcrafted with care."
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "subtitle": "Holly Wood Furniture Management",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "error": "Invalid email or password."
+    },
+    "dashboard": {
+      "title": "Portfolio Manager",
+      "addProject": "Add New Project",
+      "projects": "Projects",
+      "published": "Published",
+      "draft": "Draft",
+      "featured": "Featured",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Are you sure you want to delete this project? This cannot be undone.",
+      "logout": "Logout",
+      "noProjects": "No projects yet. Click 'Add New Project' to get started."
+    },
+    "editor": {
+      "newProject": "New Project",
+      "editProject": "Edit Project",
+      "titleEn": "Title (English)",
+      "titleAr": "Title (Arabic)",
+      "slug": "URL Slug",
+      "slugHint": "Auto-generated from English title. Letters, numbers, and hyphens only.",
+      "category": "Category",
+      "descEn": "Description (English)",
+      "descAr": "Description (Arabic)",
+      "coverImage": "Cover Image",
+      "media": "Project Gallery",
+      "addMedia": "Add Images / Videos",
+      "isPublished": "Published",
+      "isFeatured": "Featured on Homepage",
+      "displayOrder": "Display Order",
+      "save": "Save Project",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "back": "← Back to Dashboard",
+      "uploadingMedia": "Uploading...",
+      "deleteMedia": "Remove",
+      "captionEn": "Caption (EN)",
+      "captionAr": "Caption (AR)"
+    }
+  }
+}
